@@ -48,17 +48,24 @@ body {
 /* LEFT ON HOVER */
 
 .container:hover > .top-left {
-  top: 95px;
+  top: 90px;
+  left: 15px;
+  width: 170px;
   transform: rotate(45deg);
+  transition: all 1s ease-out;
 }
 
 .container:hover > .middle-left {
   display: none;
+  transition: all 1s ease-out;
 }
 
 .container:hover > .bottom-left {
-  top: 95px;
+  top: 90px;
+  left: 15px;
+  width: 170px;
   transform: rotate(135deg);
+  transition: all 1s ease-out;
 }
 
 /* MIDDLE - AN IDEA I WANTED TO TRY */
@@ -119,6 +126,7 @@ body {
   left: 12px;
   width: 110px;
   transform: rotate(135deg);
+  transition: all 1s ease-out;
 }
 
 .container:hover > .top-middle-two {
@@ -127,6 +135,7 @@ body {
   left: 80px;
   width: 110px;
   transform: rotate(45deg);
+  transition: all 1s ease-out;
 }
 
 .container:hover > .top-middle-chimney {
@@ -135,6 +144,7 @@ body {
   left: 130px;
   width: 30px;
   transform: rotate(90deg);
+  transition: all 1s ease-out;
 }
 
 .container:hover > .middle-middle-one {
@@ -143,6 +153,7 @@ body {
   left: 110px;
   width: 85px;
   transform: rotate(90deg);
+  transition: all 1s ease-out;
 }
 
 .container:hover > .middle-middle-two {
@@ -151,6 +162,7 @@ body {
   left: 6px;
   width: 85px;
   transform: rotate(90deg);
+  transition: all 1s ease-out;
 }
 
 .container:hover > .middle-bottom {
@@ -159,6 +171,7 @@ body {
   top: 157px;
   left: 50px;
   width: 100px;
+  transition: all 1s ease-out;
 }
 
 /* RIGHT - THIS IS OS MUCH FUN I HAD TO ADD A THIRD ONE */
@@ -265,7 +278,8 @@ body {
   height: 12px;
   border-radius: 0 90% 30% 90%;
   transform: rotate(45deg);
-  display: none;
+  opacity: 0;
+  /* 	display: none; */
 }
 
 /* RIGHT ON HOVER :p)  */
@@ -278,6 +292,7 @@ body {
   top: -10px;
   left: 70px;
   width: 61px;
+  transition: all 1s ease-out;
 }
 
 .container:hover > .top-right-two {
@@ -288,6 +303,7 @@ body {
   top: -35px;
   left: 50px;
   width: 100px;
+  transition: all 1s ease-out;
 }
 
 .container:hover > .top-right-three {
@@ -298,6 +314,7 @@ body {
   top: -70px;
   left: 28px;
   width: 143px;
+  transition: all 1s ease-out;
 }
 
 /* .container:hover > .top-right-one-half-left {
@@ -356,6 +373,7 @@ body {
   left: 40px;
   width: 121px;
   transform: rotate(90deg);
+  transition: all 1s ease-out;
 }
 
 .container:hover > .bottom-right {
@@ -365,29 +383,33 @@ body {
   top: 155px;
   left: 50px;
   width: 100px;
+  transition: all 1s ease-out;
 }
 
 /* CANDLES */
 
 .container:hover > .candle-flame-one {
-  display: inline;
   position: absolute;
   top: 32px;
   left: 22px;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .container:hover > .candle-flame-two {
-  display: inline;
   position: absolute;
   top: 32px;
   left: 44px;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .container:hover > .candle-flame-three {
-  display: inline;
   position: absolute;
   top: 32px;
   left: 64px;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .container:hover > .candle-flame-four {
@@ -395,6 +417,8 @@ body {
   position: absolute;
   top: 32px;
   left: 94px;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .container:hover > .candle-flame-five {
@@ -402,18 +426,22 @@ body {
   position: absolute;
   top: 32px;
   left: 124px;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .container:hover > .candle-flame-six {
-  display: inline;
   position: absolute;
   top: 32px;
   left: 144px;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 
 .container:hover > .candle-flame-seven {
-  display: inline;
   position: absolute;
   top: 32px;
   left: 164px;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
